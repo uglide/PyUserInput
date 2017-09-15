@@ -91,6 +91,10 @@ character_translate_table = {
     'rightoption' : 0x3D,
     'rightcontrol' : 0x3E,
     'function' : 0x3F,
+    'left' : 0x7B,
+    'right' : 0x7C,
+    'down' : 0x7D,
+    'up' : 0x7E,
 }
 
 #inverse of character_translate_table for key code to name lookups
