@@ -18,6 +18,17 @@ PyUserInput to function:
   * Mac - Quartz, AppKit
   * Windows - pywin32, pyHook
 
+Install PyUserInput
+------------
+
+#### Using pip/easy_install
+
+`pip install PyUserInput`
+
+#### From Source
+
+You can find instructions here: https://github.com/SavinaRoja/PyUserInput/wiki/Installation
+
 How to get started
 ------------------
 
