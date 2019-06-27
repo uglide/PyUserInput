@@ -8,24 +8,32 @@ Mouse control and capture should be fairly complete and mature on all supported 
 
 Basic keyboard handling should work, but known issues exist. Contributions welcome. For some less-common keyboard keys and layouts, you may want to look at [Pynput](https://github.com/moses-palmer/pynput)
 
-Dependencies
-------------
-
-Depending on your platform, you will need the following python modules for
-PyUserInput to function:
-
-  * Linux - Xlib
-  * Mac - Quartz, AppKit
-  * Windows - pywin32, pyHook
-
 Installation
 ------------
 
-After the dependencies have been installed:
+### Dependencies
+Depending on your platform, you will need the following python modules for PyUserInput to function:
+* Linux - Xlib (python-xlib)
+* Mac - Quartz, AppKit
+* Windows - pywin32, pyHook
+
+If you don't have the dependencies appropriate for your system, the installation of PyUserInput should warn you of that fact.
+
+### Windows Dependencies
+PyUserInput on Windows depends on pywin32, a set of Windows extensions for Python. To install them, please visit http://sourceforge.net/projects/pywin32/files/pywin32/, choose the latest build, and download and run the file corresponding to your version and architecture of Python.
+
+### Using PyPI
+PyUserInput is registered on PyPI (Python Package Index) and updated periodically, so tools such as pip or easy_install should work.
 
 `pip install PyUserInput`
 
-For more information on the dependencies, other operating systems, or how to install from source, look here: [Installation](https://github.com/SavinaRoja/PyUserInput/wiki/Installation).
+### From Source
+
+You can download a [zip file from Github](https://github.com/SavinaRoja/PyUserInput/archive/master.zip) or a tar.gz file from PyPI that contains the source code. Once you have uncompressed the file into a directory, you should navigate a terminal session to the directory that contains setup.py. The next step is to type the following command:
+
+`python setup.py install`
+
+If you are on linux and have a problem with permissions, you may need to prepend the command with sudo. For any other installation problems, open an issue on GitHub.
 
 How to get started
 ------------------
