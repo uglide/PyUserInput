@@ -35,6 +35,17 @@ You can download a [zip file from Github](https://github.com/SavinaRoja/PyUserIn
 
 If you are on linux and have a problem with permissions, you may need to prepend the command with sudo. For any other installation problems, open an issue on GitHub.
 
+Install PyUserInput
+------------
+
+#### Using pip/easy_install
+
+`pip install PyUserInput`
+
+#### From Source
+
+You can find instructions here: https://github.com/SavinaRoja/PyUserInput/wiki/Installation
+
 How to get started
 ------------------
 
