@@ -22,29 +22,18 @@ If you don't have the dependencies appropriate for your system, the installation
 ### Windows Dependencies
 PyUserInput on Windows depends on pywin32, a set of Windows extensions for Python. To install them, please visit http://sourceforge.net/projects/pywin32/files/pywin32/, choose the latest build, and download and run the file corresponding to your version and architecture of Python.
 
-### Using PyPI
+### Using pip
 PyUserInput is registered on PyPI (Python Package Index) and updated periodically, so tools such as pip or easy_install should work.
 
 `pip install PyUserInput`
 
 ### From Source
 
-You can download a [zip file from Github](https://github.com/SavinaRoja/PyUserInput/archive/master.zip) or a tar.gz file from PyPI that contains the source code. Once you have uncompressed the file into a directory, you should navigate a terminal session to the directory that contains setup.py. The next step is to type the following command:
+You can download a [zip file from Github](https://github.com/PyUserInput/PyUserInput/archive/master.zip) or a tar.gz file from PyPI that contains the source code. Once you have uncompressed the file into a directory, you should navigate a terminal session to the directory that contains setup.py. The next step is to type the following command:
 
 `python setup.py install`
 
 If you are on linux and have a problem with permissions, you may need to prepend the command with sudo. For any other installation problems, open an issue on GitHub.
-
-Install PyUserInput
-------------
-
-#### Using pip/easy_install
-
-`pip install PyUserInput`
-
-#### From Source
-
-You can find instructions here: https://github.com/SavinaRoja/PyUserInput/wiki/Installation
 
 How to get started
 ------------------
